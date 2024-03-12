@@ -9,8 +9,6 @@ namespace DynamicLinqTest
 
         static void Main(string[] args)
         {
-            //Queryable.GroupBy(
-
             Program program = new Program();
             program.SampleData(100);
             program.DynamicClass();
